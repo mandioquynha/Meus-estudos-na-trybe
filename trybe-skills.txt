@@ -1,2 +1,5 @@
-Java Script
-Phyton]
+Unix
+Bash
+Git
+JavaScript
+Phyton
