@@ -1,0 +1,24 @@
+div:nth-child(3):hover {
+    border-color: red;
+    border-style: solid;
+}
+div:nth-child(4):hover {
+    border-color: orange;
+    border-style: solid;
+}
+div:nth-child(5):hover {
+    border-color: green;
+    border-style: solid;
+}
+div:nth-child(6):hover {
+    border-color: black;
+    border-style: solid;
+}
+div:nth-child(7):hover {
+    border-color: silver;
+    border-style: solid;
+}
+div:nth-child(5) {
+    font-size:20px;
+}
+
