@@ -21,4 +21,21 @@ div:nth-child(7):hover {
 div:nth-child(5) {
     font-size:20px;
 }
-
+div:nth-child(3) h3 {
+    color:red;
+}
+div:nth-child(4) h3 {
+    color:orange;
+}
+div:nth-child(5) h3 {
+    color: green;
+}
+div:nth-child(6) h3 {
+    color:black;
+}
+div:nth-child(7) h3 {
+    color:silver;
+}
+div:nth-child(odd) h3 {
+    font-style:italic;
+}
