@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="" method="GET" id="form">
+      
+        <fieldset id="pagina">
+            <label for="nome">Digite seu nome:
+             <input type="text" name="texto" required id="nome" maxlength="40">
+            </label>
+            <br>
+            <label for="email">Digite seu e-mail aqui:
+             <input type="email" name="email" required id="email" maxlength="50">
+            </label>
+            <br>
+            <label for="cpf">CPF:
+             <input type="text" name="cpf" required id="cpf" maxlength="11">
+            </label>
+            <br>
+            <label for="endereco">Endereço:
+             <input type="text" name="endereco" required id="endereco" maxlength="200">
+            </label>
+            <br>
+            <label for="cidade">Cidade:
+             <input type="text" name="cidade" required id="cidade" maxlength="28">
+            </label>
+            <br>
+            <label for="estado">Estado:
+                <select name="estado" id="estado" required></select>
+            </label>
+            <br>
+            <label for="ondeMora">Mora em:
+                <input type="radio" name="ondeMora" required id="ondeMora" checked>Casa
+                <input type="radio" name="ondeMora" required id="ondeMora">Apartamento
+            </label>
+        </fieldset>   
+
+            <br>
+            
+        
+        <fieldset>
+            <label for="texto-area">Resumo do currículo:
+                <textarea name="texto-area" id="texto-area" maxlength="1000" required>Faça um resumo do seu currículo.</textarea>
+            </label>
+            <br>
+            <label for="cargo">Cargo:
+                <input type="text" name="cargo" required id="cargo" maxlength="40" required>
+            </label>
+            <br>
+            <label for="descricao">Descrição do cargo:
+                <input type="text" name="descricao" required id="descricao" maxlength="500">
+            </label>
+            <br>
+            <label for="data">Data de início:
+                <input type="date" name="data" required id="data">
+            </label>
+        </fieldset>
+        <br>
+        <button type="submit" id="button">Enviar</button>
+        <button type="reset">Limpar</button>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
