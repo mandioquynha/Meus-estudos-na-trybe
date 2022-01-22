@@ -11,14 +11,14 @@
     <script src="https://cdn.jsdelivr.net/npm/pikaday/pikaday.js"></script>
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css">
 </head>
-<body>
+<body class="bg-light text-center" style="padding: 5%;">
     <h1 class="display-4 text-muted">FORMULÁRIO</h1>
     <form action="" method="GET" id="form">
       
-        <fieldset id="pagina">
+        <fieldset class="" id="pagina">Dados pessoais
             
             <div class="form-group">
-             <label for="nome">Digite seu nome:
+             <label class="input-group-text" for="nome">Digite seu nome:
                  <input class="form-control" type="text" name="texto" required id="nome" maxlength="40">
              </label>
             </div>
@@ -26,7 +26,7 @@
             <br>
             
             <div class="form-group">
-             <label for="email">Digite seu e-mail aqui:
+             <label class="input-group-text"for="email">Digite seu e-mail aqui:
                  <input class="form-control" type="email" name="email" required id="email" maxlength="50">
              </label>
             </div>
@@ -34,7 +34,7 @@
             <br>
             
             <div class="form-group"> 
-             <label for="cpf">CPF:
+             <label class="input-group-text"for="cpf">CPF:
                  <input class="form-control" type="text" name="cpf" required id="cpf" maxlength="11">
              </label>
             </div>
@@ -42,7 +42,7 @@
             <br>
             
             <div class="form-group">
-             <label for="endereco">Endereço:
+             <label class="input-group-text"for="endereco">Endereço:
                  <input class="form-control" type="text" name="endereco" required id="endereco" maxlength="200">
              </label>
             </div>
@@ -51,7 +51,7 @@
             <br>
             
             <div class="form-group">
-             <label for="cidade">Cidade:
+             <label class="input-group-text"for="cidade">Cidade:
                  <input class="form-control" type="text" name="cidade" required id="cidade" maxlength="28">
              </label>
             </div>
@@ -59,15 +59,15 @@
             <br>
             
             <div class="form-group">
-             <label for="estado">Estado:
-                 <select class="form-control"name="estado" id="estado" required></select>
+             <label class="input-group-text"for="estado">Estado:
+                 <select class="form-control form-select"name="estado" id="estado" required></select>
              </label>
             </div>
             
             <br>
             
             <div class="form-group">
-             <label for="ondeMora">Mora em:
+             <label class="input-group"for="ondeMora">Mora em:
                 <input  type="radio" name="ondeMora" required id="ondeMora" checked>Casa
                 <input  type="radio" name="ondeMora" required id="ondeMora">Apartamento
              </label>
@@ -75,15 +75,18 @@
 
             <br>
 
-        </fieldset>   
+        </fieldset> 
 
-            
+        <div class="b-example-divider">
+            <br>
+            <br>
+        </div>  
             
         
-        <fieldset>
+        <fieldset class="">Dados profissionais
             
             <div class="form-group">
-             <label for="texto-area">Resumo do currículo:
+             <label class="input-group-text"for="texto-area">Resumo do currículo:   
                  <textarea class="form-control" name="texto-area" id="texto-area" maxlength="1000" required>Faça um resumo do seu currículo.</textarea>
              </label>
             </div>
@@ -91,7 +94,7 @@
             <br>
             
             <div class="form-group">
-             <label for="cargo">Cargo:
+             <label class="input-group-text"for="cargo">Cargo:
                  <input class="form-control" type="text" name="cargo" required id="cargo" maxlength="40" required>
              </label>
             </div>
@@ -99,15 +102,15 @@
             <br>
             
             <div class="form-group">
-             <label for="descricao">Descrição do cargo:
+             <label class="input-group-text" for="descricao">Descrição do cargo:
                  <input class="form-control" type="text" name="descricao" required id="descricao" maxlength="500">
              </label>
             </div>
             
              <br>
             
-            <div class="form-group">
-             <label for="data" id="datepicker">Data de início:
+            <div class="form-group d-grid gap-1">
+             <label class="input-group-text" for="data" id="datepicker">Data de início:
                 <input class="form-control" type="date" name="data" required id="data">
             </label>
             </div>
