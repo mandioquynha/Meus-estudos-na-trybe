@@ -1,0 +1,22 @@
+.Poke {
+    display: flex;
+    flex-direction: row;
+}
+
+.Header {
+    text-align: center;
+}
+
+.Pokemon {
+  display: inline-block;
+  border: 1px solid black;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 10%;
+}
+
+.Descricao {
+    margin-right: 5%;
+    text-align: center;
+    
+}
